@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52283FF1E3BDED7003A9378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D52283FE1E3BDED7003A9378 /* AppDelegate.m */; };
+		D52284021E3BDED7003A9378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D52284011E3BDED7003A9378 /* main.m */; };
+		D52284041E3BDED7003A9378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52284031E3BDED7003A9378 /* Assets.xcassets */; };
+		D52284071E3BDED7003A9378 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52284051E3BDED7003A9378 /* MainMenu.xib */; };
+		D52284161E3BDEF2003A9378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D52284151E3BDEF2003A9378 /* AppDelegate.m */; };
+		D52284191E3BDEF2003A9378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D52284181E3BDEF2003A9378 /* main.m */; };
+		D522841B1E3BDEF2003A9378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D522841A1E3BDEF2003A9378 /* Assets.xcassets */; };
+		D522841E1E3BDEF2003A9378 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D522841C1E3BDEF2003A9378 /* MainMenu.xib */; };
+		D52284311E3BF589003A9378 /* TestXPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = D52284301E3BF589003A9378 /* TestXPCService.m */; };
+		D52284331E3BF589003A9378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D52284321E3BF589003A9378 /* main.m */; };
+		D52B95F01E43B43C007A0CEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B95EF1E43B43C007A0CEE /* main.m */; };
+		D52B95F61E43B489007A0CEE /* SnagitEndpointDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = D52B95F51E43B489007A0CEE /* SnagitEndpointDaemon.m */; };
+		D52B95F91E43BE00007A0CEE /* com.techsmith.snagitendpointdaemon in Copy Files */ = {isa = PBXBuildFile; fileRef = D52B95ED1E43B43C007A0CEE /* com.techsmith.snagitendpointdaemon */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D52B95FC1E43BE5F007A0CEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B95FB1E43BE5F007A0CEE /* Foundation.framework */; };
+		D52B96221E43E0B3007A0CEE /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B96211E43E0B3007A0CEE /* ServiceManagement.framework */; };
+		D52B96241E43E0C0007A0CEE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B96231E43E0C0007A0CEE /* Cocoa.framework */; };
+		D5377FEA1E42710B00EF21DB /* TestHelperXPC.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D52284121E3BDEF2003A9378 /* TestHelperXPC.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D57972B91E49301600717D1F /* TestHelperXPC.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D52284121E3BDEF2003A9378 /* TestHelperXPC.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5CC26F91E4A6A8E00981C12 /* TestCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CC26F81E4A6A8E00981C12 /* TestCommonClass.m */; };
+		D5CC26FB1E4A73AD00981C12 /* TestCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CC26F81E4A6A8E00981C12 /* TestCommonClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D52B95FD1E43C473007A0CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52283F21E3BDED7003A9378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52B95EC1E43B43C007A0CEE;
+			remoteInfo = snagitd;
+		};
+		D52B968C1E492FB6007A0CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52283F21E3BDED7003A9378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52284111E3BDEF2003A9378;
+			remoteInfo = TestHelperXPC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D52284261E3BE8A3003A9378 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				D52B95F91E43BE00007A0CEE /* com.techsmith.snagitendpointdaemon in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B95EB1E43B43C007A0CEE /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		D5377FE91E4270FA00EF21DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				D5377FEA1E42710B00EF21DB /* TestHelperXPC.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57972961E492FDA00717D1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				D57972B91E49301600717D1F /* TestHelperXPC.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D52283FA1E3BDED7003A9378 /* TestXPCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestXPCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52283FD1E3BDED7003A9378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D52283FE1E3BDED7003A9378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D52284011E3BDED7003A9378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D52284031E3BDED7003A9378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52284061E3BDED7003A9378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D52284081E3BDED7003A9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52284121E3BDEF2003A9378 /* TestHelperXPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHelperXPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52284141E3BDEF2003A9378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D52284151E3BDEF2003A9378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D52284181E3BDEF2003A9378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D522841A1E3BDEF2003A9378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D522841D1E3BDEF2003A9378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D522841F1E3BDEF2003A9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52284231E3BDF38003A9378 /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestProtocol.h; path = ../TestProtocol.h; sourceTree = "<group>"; };
+		D522842C1E3BF589003A9378 /* TestXPCService.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = TestXPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		D522842E1E3BF589003A9378 /* TestXPCServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXPCServiceProtocol.h; sourceTree = "<group>"; };
+		D522842F1E3BF589003A9378 /* TestXPCService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestXPCService.h; sourceTree = "<group>"; };
+		D52284301E3BF589003A9378 /* TestXPCService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestXPCService.m; sourceTree = "<group>"; };
+		D52284321E3BF589003A9378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D52284341E3BF589003A9378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52B95ED1E43B43C007A0CEE /* com.techsmith.snagitendpointdaemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.techsmith.snagitendpointdaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52B95EF1E43B43C007A0CEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D52B95F41E43B489007A0CEE /* SnagitEndpointDaemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnagitEndpointDaemon.h; sourceTree = "<group>"; };
+		D52B95F51E43B489007A0CEE /* SnagitEndpointDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnagitEndpointDaemon.m; sourceTree = "<group>"; };
+		D52B95F71E43B55D007A0CEE /* SnagitEndpoint-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SnagitEndpoint-Info.plist"; sourceTree = "<group>"; };
+		D52B95F81E43B56D007A0CEE /* SnagitEndpoint-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SnagitEndpoint-Launchd.plist"; sourceTree = "<group>"; };
+		D52B95FB1E43BE5F007A0CEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D52B96211E43E0B3007A0CEE /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		D52B96231E43E0C0007A0CEE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D5CC26F71E4A6A8E00981C12 /* TestCommonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCommonClass.h; sourceTree = "<group>"; };
+		D5CC26F81E4A6A8E00981C12 /* TestCommonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCommonClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52283F71E3BDED7003A9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B96241E43E0C0007A0CEE /* Cocoa.framework in Frameworks */,
+				D52B96221E43E0B3007A0CEE /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D522840F1E3BDEF2003A9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52284291E3BF589003A9378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B95EA1E43B43C007A0CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B95FC1E43BE5F007A0CEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52283F11E3BDED7003A9378 = {
+			isa = PBXGroup;
+			children = (
+				D5CC26F61E4A6A7600981C12 /* Common */,
+				D52283FC1E3BDED7003A9378 /* TestXPCApp */,
+				D52284131E3BDEF2003A9378 /* TestHelperXPC */,
+				D522842D1E3BF589003A9378 /* TestXPCService */,
+				D52B95EE1E43B43C007A0CEE /* snagitd */,
+				D52283FB1E3BDED7003A9378 /* Products */,
+				D52B95FA1E43BE5E007A0CEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D52283FB1E3BDED7003A9378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52283FA1E3BDED7003A9378 /* TestXPCApp.app */,
+				D52284121E3BDEF2003A9378 /* TestHelperXPC.app */,
+				D522842C1E3BF589003A9378 /* TestXPCService.xpc */,
+				D52B95ED1E43B43C007A0CEE /* com.techsmith.snagitendpointdaemon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52283FC1E3BDED7003A9378 /* TestXPCApp */ = {
+			isa = PBXGroup;
+			children = (
+				D52283FD1E3BDED7003A9378 /* AppDelegate.h */,
+				D52283FE1E3BDED7003A9378 /* AppDelegate.m */,
+				D52284031E3BDED7003A9378 /* Assets.xcassets */,
+				D52284051E3BDED7003A9378 /* MainMenu.xib */,
+				D52284081E3BDED7003A9378 /* Info.plist */,
+				D52284001E3BDED7003A9378 /* Supporting Files */,
+			);
+			path = TestXPCApp;
+			sourceTree = "<group>";
+		};
+		D52284001E3BDED7003A9378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52284011E3BDED7003A9378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D52284131E3BDEF2003A9378 /* TestHelperXPC */ = {
+			isa = PBXGroup;
+			children = (
+				D52284141E3BDEF2003A9378 /* AppDelegate.h */,
+				D52284151E3BDEF2003A9378 /* AppDelegate.m */,
+				D522841A1E3BDEF2003A9378 /* Assets.xcassets */,
+				D522841C1E3BDEF2003A9378 /* MainMenu.xib */,
+				D522841F1E3BDEF2003A9378 /* Info.plist */,
+				D52284171E3BDEF2003A9378 /* Supporting Files */,
+			);
+			path = TestHelperXPC;
+			sourceTree = "<group>";
+		};
+		D52284171E3BDEF2003A9378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52284181E3BDEF2003A9378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D522842D1E3BF589003A9378 /* TestXPCService */ = {
+			isa = PBXGroup;
+			children = (
+				D522842E1E3BF589003A9378 /* TestXPCServiceProtocol.h */,
+				D522842F1E3BF589003A9378 /* TestXPCService.h */,
+				D52284301E3BF589003A9378 /* TestXPCService.m */,
+				D52284321E3BF589003A9378 /* main.m */,
+				D52284341E3BF589003A9378 /* Info.plist */,
+			);
+			path = TestXPCService;
+			sourceTree = "<group>";
+		};
+		D52B95EE1E43B43C007A0CEE /* snagitd */ = {
+			isa = PBXGroup;
+			children = (
+				D52B95EF1E43B43C007A0CEE /* main.m */,
+				D52B95F41E43B489007A0CEE /* SnagitEndpointDaemon.h */,
+				D52B95F51E43B489007A0CEE /* SnagitEndpointDaemon.m */,
+				D52B95F71E43B55D007A0CEE /* SnagitEndpoint-Info.plist */,
+				D52B95F81E43B56D007A0CEE /* SnagitEndpoint-Launchd.plist */,
+			);
+			path = snagitd;
+			sourceTree = "<group>";
+		};
+		D52B95FA1E43BE5E007A0CEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D52B96231E43E0C0007A0CEE /* Cocoa.framework */,
+				D52B96211E43E0B3007A0CEE /* ServiceManagement.framework */,
+				D52B95FB1E43BE5F007A0CEE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CC26F61E4A6A7600981C12 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D52284231E3BDF38003A9378 /* TestProtocol.h */,
+				D5CC26F71E4A6A8E00981C12 /* TestCommonClass.h */,
+				D5CC26F81E4A6A8E00981C12 /* TestCommonClass.m */,
+			);
+			name = Common;
+			path = TestXPCApp/Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52283F91E3BDED7003A9378 /* TestXPCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D522840B1E3BDED7003A9378 /* Build configuration list for PBXNativeTarget "TestXPCApp" */;
+			buildPhases = (
+				D52283F61E3BDED7003A9378 /* Sources */,
+				D52283F71E3BDED7003A9378 /* Frameworks */,
+				D52283F81E3BDED7003A9378 /* Resources */,
+				D52284261E3BE8A3003A9378 /* Copy Files */,
+				D57972961E492FDA00717D1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52B968D1E492FB6007A0CEE /* PBXTargetDependency */,
+				D52B95FE1E43C473007A0CEE /* PBXTargetDependency */,
+			);
+			name = TestXPCApp;
+			productName = TestXPCApp;
+			productReference = D52283FA1E3BDED7003A9378 /* TestXPCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D52284111E3BDEF2003A9378 /* TestHelperXPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52284201E3BDEF2003A9378 /* Build configuration list for PBXNativeTarget "TestHelperXPC" */;
+			buildPhases = (
+				D522840E1E3BDEF2003A9378 /* Sources */,
+				D522840F1E3BDEF2003A9378 /* Frameworks */,
+				D52284101E3BDEF2003A9378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHelperXPC;
+			productName = TestHelperXPC;
+			productReference = D52284121E3BDEF2003A9378 /* TestHelperXPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D522842B1E3BF589003A9378 /* TestXPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52284391E3BF589003A9378 /* Build configuration list for PBXNativeTarget "TestXPCService" */;
+			buildPhases = (
+				D52284281E3BF589003A9378 /* Sources */,
+				D52284291E3BF589003A9378 /* Frameworks */,
+				D522842A1E3BF589003A9378 /* Resources */,
+				D5377FE91E4270FA00EF21DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestXPCService;
+			productName = TestXPCService;
+			productReference = D522842C1E3BF589003A9378 /* TestXPCService.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		D52B95EC1E43B43C007A0CEE /* snagitd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52B95F31E43B43C007A0CEE /* Build configuration list for PBXNativeTarget "snagitd" */;
+			buildPhases = (
+				D52B95E91E43B43C007A0CEE /* Sources */,
+				D52B95EA1E43B43C007A0CEE /* Frameworks */,
+				D52B95EB1E43B43C007A0CEE /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snagitd;
+			productName = snagitd;
+			productReference = D52B95ED1E43B43C007A0CEE /* com.techsmith.snagitendpointdaemon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52283F21E3BDED7003A9378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TechSmith;
+				TargetAttributes = {
+					D52283F91E3BDED7003A9378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TQL462TU8;
+						ProvisioningStyle = Automatic;
+					};
+					D52284111E3BDEF2003A9378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TQL462TU8;
+						ProvisioningStyle = Automatic;
+					};
+					D522842B1E3BF589003A9378 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D52B95EC1E43B43C007A0CEE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TQL462TU8;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D52283F51E3BDED7003A9378 /* Build configuration list for PBXProject "TestXPCApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52283F11E3BDED7003A9378;
+			productRefGroup = D52283FB1E3BDED7003A9378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52283F91E3BDED7003A9378 /* TestXPCApp */,
+				D52284111E3BDEF2003A9378 /* TestHelperXPC */,
+				D522842B1E3BF589003A9378 /* TestXPCService */,
+				D52B95EC1E43B43C007A0CEE /* snagitd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52283F81E3BDED7003A9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52284041E3BDED7003A9378 /* Assets.xcassets in Resources */,
+				D52284071E3BDED7003A9378 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52284101E3BDEF2003A9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D522841B1E3BDEF2003A9378 /* Assets.xcassets in Resources */,
+				D522841E1E3BDEF2003A9378 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D522842A1E3BF589003A9378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52283F61E3BDED7003A9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52284021E3BDED7003A9378 /* main.m in Sources */,
+				D5CC26F91E4A6A8E00981C12 /* TestCommonClass.m in Sources */,
+				D52283FF1E3BDED7003A9378 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D522840E1E3BDEF2003A9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CC26FB1E4A73AD00981C12 /* TestCommonClass.m in Sources */,
+				D52284191E3BDEF2003A9378 /* main.m in Sources */,
+				D52284161E3BDEF2003A9378 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52284281E3BF589003A9378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52284331E3BF589003A9378 /* main.m in Sources */,
+				D52284311E3BF589003A9378 /* TestXPCService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52B95E91E43B43C007A0CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52B95F61E43B489007A0CEE /* SnagitEndpointDaemon.m in Sources */,
+				D52B95F01E43B43C007A0CEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D52B95FE1E43C473007A0CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52B95EC1E43B43C007A0CEE /* snagitd */;
+			targetProxy = D52B95FD1E43C473007A0CEE /* PBXContainerItemProxy */;
+		};
+		D52B968D1E492FB6007A0CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52284111E3BDEF2003A9378 /* TestHelperXPC */;
+			targetProxy = D52B968C1E492FB6007A0CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D52284051E3BDED7003A9378 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52284061E3BDED7003A9378 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D522841C1E3BDEF2003A9378 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D522841D1E3BDEF2003A9378 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D52284091E3BDED7003A9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D522840A1E3BDED7003A9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D522840C1E3BDED7003A9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = TestXPCApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestXPCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D522840D1E3BDED7003A9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = TestXPCApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestXPCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D52284211E3BDEF2003A9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = TestHelperXPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestHelperXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D52284221E3BDEF2003A9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = TestHelperXPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestHelperXPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D522843A1E3BF589003A9378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestXPCService/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestXPCService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D522843B1E3BF589003A9378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestXPCService/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TechSmith.TestXPCService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D52B95F11E43B43C007A0CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = "snagitd/SnagitEndpoint-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"snagitd/SnagitEndpoint-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"snagitd/SnagitEndpoint-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsmith.snagitendpointdaemon;
+				PRODUCT_NAME = com.techsmith.snagitendpointdaemon;
+			};
+			name = Debug;
+		};
+		D52B95F21E43B43C007A0CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = 7TQL462TU8;
+				INFOPLIST_FILE = "snagitd/SnagitEndpoint-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"snagitd/SnagitEndpoint-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"snagitd/SnagitEndpoint-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsmith.snagitendpointdaemon;
+				PRODUCT_NAME = com.techsmith.snagitendpointdaemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52283F51E3BDED7003A9378 /* Build configuration list for PBXProject "TestXPCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52284091E3BDED7003A9378 /* Debug */,
+				D522840A1E3BDED7003A9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D522840B1E3BDED7003A9378 /* Build configuration list for PBXNativeTarget "TestXPCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D522840C1E3BDED7003A9378 /* Debug */,
+				D522840D1E3BDED7003A9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52284201E3BDEF2003A9378 /* Build configuration list for PBXNativeTarget "TestHelperXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52284211E3BDEF2003A9378 /* Debug */,
+				D52284221E3BDEF2003A9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52284391E3BF589003A9378 /* Build configuration list for PBXNativeTarget "TestXPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D522843A1E3BF589003A9378 /* Debug */,
+				D522843B1E3BF589003A9378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52B95F31E43B43C007A0CEE /* Build configuration list for PBXNativeTarget "snagitd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52B95F11E43B43C007A0CEE /* Debug */,
+				D52B95F21E43B43C007A0CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52283F21E3BDED7003A9378 /* Project object */;
+}
