@@ -17,4 +17,5 @@ Whenever you want to rebuild the daemon, you have to unload it from launchd.  Us
 
 This is because once the daemon is loaded into launchd, it apparently isn't overwritten even if you re-build it, and try to load it with `SMJobBless`.  So unloading it is the only way you can reload the new binaries
 
+NOTE: It is mandatory to run the python script before running the app and daemon.
  
